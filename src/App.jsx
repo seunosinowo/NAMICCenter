@@ -11,6 +11,10 @@ import Donation from './components/Donation';
 import DonationDetails from './components/other_pages/DonationDetails';
 import EventsCenter from './components/EventsCenter';
 import MainEventCenter from './components/other_pages/MainEventCenter';
+import Newsletter from './components/Newsletter';
+import RamadanActivities from './components/RamadanActivities';
+import ContactPage from './components/other_pages/ContactPage';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -28,10 +32,16 @@ const App = () => {
             <WhatWeOffer />
             <Donation />
             <EventsCenter/>
+            <Newsletter/>
+            <RamadanActivities/>
+            <Footer/>
+
           </>
         } />
         <Route path="/donation-details" element={<DonationDetails/>} />
         <Route path='/event-page' element={<MainEventCenter/>} />
+
+        <Route path="/contact" element={<ContactPage/>} />
 
         
       </Routes>

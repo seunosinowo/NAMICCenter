@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import eventTradition from '../assets/tradition.jpg';
 
 const EventsCenter = () => {
   return (
@@ -24,7 +25,7 @@ const EventsCenter = () => {
           </button>
         </div>
         <div className="w-full md:w-1/2 xl:w-1/2 p-6">
-          <img src="events-center-image.jpg" alt="Events Center" className="w-full h-full object-cover rounded-lg shadow-lg" />
+          <img src={eventTradition} alt="Events Center" className="w-full h-full object-cover rounded-lg shadow-lg" />
         </div>
       </div>
     </motion.div>

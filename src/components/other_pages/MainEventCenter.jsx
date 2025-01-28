@@ -1,11 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import eventTradition from '../../assets/tradition.jpg';
+
 
 const Events = () => {
   return (
     <div
       className="bg-gradient-to-b from-green-400 to-green-700 py-12"
-      style={{ backgroundImage: 'url(https://picsum.photos/2000/1000)' }}
+      style={{ backgroundImage: `url(${eventTradition})` }}
     >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -18,7 +20,7 @@ const Events = () => {
       </motion.div>
       <div className="max-w-5xl mx-auto flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 xl:w-1/2 p-6">
-          <img src="https://picsum.photos/500/500" alt="Events Center" className="w-full h-full object-cover rounded-lg shadow-lg" />
+          <img src={eventTradition} alt="Events Center" className="w-full h-full object-cover rounded-lg shadow-lg" />
         </div>
         <div className="w-full md:w-1/2 xl:w-1/2 p-6 bg-white rounded-lg shadow-lg">
           <h3 className="text-2xl font-bold text-green-900 mb-4">Events Center Details</h3>

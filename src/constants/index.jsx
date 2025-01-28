@@ -5,5 +5,5 @@ export const navItems = [
   { label: "Prayer time", href: "#prayer" },
   { label: "Events", href: "#events" },
   { label: "Services", href: "#services" },
-  { label: "Contact", href: "#contact" },  
+  { label: "Contact", href: "/contact" },  
 ];
