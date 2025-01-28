@@ -24,12 +24,12 @@ const Overview = () => {
         </p>
 
         {/* 2 Section inside */}
-        <div className='grid grid-cols-2 space-x-1 mb-9'>
+        <div className='grid grid-cols-2 mb-9 '>
             <img src={praying} alt="Praying"
-            className='rounded-3xl h-[8rem] md:h-[12rem]'
+            className='rounded-3xl h-[8rem] md:h-[12rem] w-[14rem] lg:w-[19rem]'
             />
-            <div className=''>
-              <p className='w-[16rem] mb-9 space-x-2'>
+            <div className='scroll-px-60'>
+              <p className='w-[16rem] mb-9'>
                 From Arabic classes to monthly lectures, and from social 
                 events to spiritual gatherings, there's something for 
                 everyone at NAMIC.

@@ -6,7 +6,7 @@ const Overview = () => {
     <div className="p-4">
 
       <div className="mt-10">
-        <h2 className="text-3xl font-bold text-center mb-6">
+        <h2 className="text-3xl md:text-4xl uppercase font-bold text-center mb-6 bg-gradient-to-r text-green-800 py-6 from-green-700 to-black text-transparent bg-clip-text">
           Upcoming Events
         </h2>
 

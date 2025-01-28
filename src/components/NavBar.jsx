@@ -29,12 +29,8 @@ const NavBar = () => {
 
 
               <div className="hidden lg:flex justify-center space-x-12 items-center">
-                <a href="#" className="py-2 px-3 border rounded-md">
-                  Sign In 
-                </a>
-
                 <a href="#" className="bg-gradient-to-r from-green-500 to-green-800 py-2 px-3 rounded-md">
-                  Create an account
+                  Contact
                 </a>
               </div>
 
