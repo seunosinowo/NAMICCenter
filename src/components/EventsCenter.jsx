@@ -21,7 +21,7 @@ const EventsCenter = () => {
           <p className="text-lg text-gray-600 mb-4">Capacity: 500 guests</p>
           <p className="text-lg text-gray-600 mb-4">Amenities: Sound system, projector, catering services</p>
           <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded">
-            <Link to="/event-page"  className="text-white">Learn More</Link>
+            <Link to="/event"  className="text-white">Learn More</Link>
           </button>
         </div>
         <div className="w-full md:w-1/2 xl:w-1/2 p-6">

@@ -2,6 +2,7 @@ import logo from "../assets/logo.png"
 import { navItems } from "../constants";
 import { X, Menu } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
 
@@ -27,12 +28,13 @@ const NavBar = () => {
               ))}
           </ul>
 
-
-              <div className="hidden lg:flex justify-center space-x-12 items-center">
+              <Link to = "/donation-details">
+              <button className="hidden lg:flex justify-center space-x-12 items-center">
                 <a href="#" className="bg-gradient-to-r from-green-500 to-green-800 py-2 px-3 rounded-md">
-                  Contact
+                  Donate
                 </a>
-              </div>
+              </button>
+              </Link>
 
               <div className="lg:hidden md: flex flex-col justify-center">
                 <button onClick={toggleNarbar}>

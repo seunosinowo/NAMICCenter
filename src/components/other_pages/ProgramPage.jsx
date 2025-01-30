@@ -1,22 +1,73 @@
 import React, { useState } from 'react';
 
-const ProgramsPage = () => {
+const ProgramsCalendar = () => {
   const [events, setEvents] = useState([
     {
       date: '30 Jan, Thu',
       time: '7:45 - 8:30pm',
       event: 'Mountains Of Mecca'
     },
+
     {
       date: '31 Jan, Fri',
       time: '12:30 - 1pm',
       event: 'Jumuah Prayer 1'
     },
+
     {
       date: '30 Jan, Thu',
       time: '7:45 - 8:30pm',
       event: 'Mountains Of Mecca'
     },
+
+    {
+      date: '31 Jan, Fri',
+      time: '12:30 - 1pm',
+      event: 'Jumuah Prayer 1'
+    },
+
+    {
+      date: '30 Jan, Thu',
+      time: '7:45 - 8:30pm',
+      event: 'Mountains Of Mecca'
+    },
+
+    {
+      date: '31 Jan, Fri',
+      time: '12:30 - 1pm',
+      event: 'Jumuah Prayer 1'
+    },
+
+    {
+      date: '30 Jan, Thu',
+      time: '7:45 - 8:30pm',
+      event: 'Mountains Of Mecca'
+    },
+
+    {
+      date: '31 Jan, Fri',
+      time: '12:30 - 1pm',
+      event: 'Jumuah Prayer 1'
+    },
+
+    {
+      date: '30 Jan, Thu',
+      time: '7:45 - 8:30pm',
+      event: 'Mountains Of Mecca'
+    },
+
+    {
+      date: '31 Jan, Fri',
+      time: '12:30 - 1pm',
+      event: 'Jumuah Prayer 1'
+    },
+
+    {
+      date: '30 Jan, Thu',
+      time: '7:45 - 8:30pm',
+      event: 'Mountains Of Mecca'
+    },
+
     {
       date: '31 Jan, Fri',
       time: '12:30 - 1pm',
@@ -71,4 +122,4 @@ const ProgramsPage = () => {
   );
 };
 
-export default ProgramsPage;
+export default ProgramsCalendar;

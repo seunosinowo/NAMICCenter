@@ -22,6 +22,9 @@ import BlogPost3 from './components/Blog_Pages/BlogPost3';
 import BlogPost4 from './components/Blog_Pages/BlogPost4';
 import BlogPost5 from './components/Blog_Pages/BlogPost5';
 import BlogPost6 from './components/Blog_Pages/BlogPost6';
+import ProgramPage from './components/other_pages/ProgramPage';
+import PrayerTime from './components/other_pages/PrayerTime';
+import Services from './components/other_pages/Services';
 
 
 const App = () => {
@@ -41,30 +44,29 @@ const App = () => {
             <EventsCenter/>
             <Newsletter/>
             <RamadanActivities/>
-            <Footer/>
-            <Blog/>
             
 
           </>
         } />
         <Route path="/donation-details" element={<DonationDetails/>} />
-        <Route path="/program" element={<ProgramsCalendar/>} />
-        <Route path='/event-page' element={<MainEventCenter/>} />
+        <Route path="/program" element={<ProgramPage/>} />
+        <Route path='/event' element={<MainEventCenter/>} />
+        <Route path='/service' element={<Services/>} />
 
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/blog-post-1" element={<BlogPost1/>} />
         <Route path="/blog-post-2" element={<BlogPost2/>} />
         <Route path="/blog-post-3" element={<BlogPost3/>} />
-        <Route path="/blog-post-4" element={<BlogPost4/>} />
+        <Route path="/blog-post-4" element={<BlogPost4/>} />5f
         <Route path="/blog-post-5" element={<BlogPost5/>} />
         <Route path="/blog-post-6" element={<BlogPost6/>} />
         <Route path="/blog-page" element={<Blog/>} />
+        <Route path="/programs-page" element={<ProgramPage/>} />
+        <Route path="/prayer" element={<PrayerTime/>} />
 
-        
-
-        
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };

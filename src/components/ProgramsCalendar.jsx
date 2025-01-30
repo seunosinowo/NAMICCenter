@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const ProgramsCalendar = () => {
@@ -19,9 +20,9 @@ const ProgramsCalendar = () => {
       event: 'Mountains Of Mecca'
     },
     {
-      date: '31 Jan, Fri',
-      time: '12:30 - 1pm',
-      event: 'Jumuah Prayer 1'
+      date: '........',
+      time: '........',
+      event: '........'
     },
   ]);
 
@@ -37,7 +38,7 @@ const ProgramsCalendar = () => {
           </tr>
         </thead>
         <tbody>
-          {events.slice(0, 2).map((event, index) => (
+          {events.map((event, index) => (
             <tr key={index}>
               <td className="border px-4 py-2">{event.date}</td>
               <td className="border px-4 py-2">{event.time}</td>
@@ -47,12 +48,11 @@ const ProgramsCalendar = () => {
         </tbody>
       </table>
       <div className="flex justify-center mt-4">
-        <Link to="/programs-calendar">
+        <Link to="/programs-page">
           <button className="bg-green-800 hover:bg-green-950 text-white font-bold py-2 px-4 rounded">
             See More
           </button>
         </Link>
-        <p className="text-gray-600 ml-2">...</p>
       </div>
     </div>
   );
