@@ -1,8 +1,14 @@
 {
-    "build": {
-      "env": {
-        "NODE_ENV": "development"
-      }
+  "build": {
+    "env": {
+      "NODE_ENV": "development"
     }
-  }
+  },
   
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.html"
+    }
+  ]
+}
