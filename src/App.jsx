@@ -25,6 +25,7 @@ import BlogPost6 from './components/Blog_Pages/BlogPost6';
 import ProgramPage from './components/other_pages/ProgramPage';
 import PrayerTime from './components/other_pages/PrayerTime';
 import Services from './components/other_pages/Services';
+import About from './components/other_pages/About';
 
 
 const App = () => {
@@ -52,6 +53,7 @@ const App = () => {
         <Route path="/program" element={<ProgramPage/>} />
         <Route path='/event' element={<MainEventCenter/>} />
         <Route path='/service' element={<Services/>} />
+        <Route path='/about' element={<About/>} />
 
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="/blog" element={<Blog/>} />

@@ -11,7 +11,7 @@ const HeroSection = () => {
       ></div>
 
       <div className="absolute inset-0 bg-green-500 opacity-50"></div>
-      <div className="relative z-10 flex flex-col justify-center items-center h-full text-center gap-9 p-4">
+      <div className="relative z-10 flex flex-col justify-center items-center h-full w-full text-center gap-9 p-4">
         
         <motion.h1
           className="text-white text-4xl md:text-6xl font-bold mt-4 mx-auto"

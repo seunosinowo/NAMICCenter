@@ -32,7 +32,7 @@ const PrayerTime = () => {
 
   return (
     <div className="bg-gray-100 p-4 md:p-6 lg:p-8 mb-4">
-      <h2 className="text-2xl md:text-3xl font-bold mb-4 mt-12">
+      <h2 className="text-2xl md:text-3xl font-bold mb-4 mt-12 text-green-800">
         Prayer Times at our Community Center
     </h2>
 
