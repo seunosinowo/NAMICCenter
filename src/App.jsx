@@ -33,8 +33,6 @@ const BlogPost5 = lazy(() => import('./components/Blog_Pages/BlogPost5'));
 const BlogPost6 = lazy(() => import('./components/Blog_Pages/BlogPost6'));
 
 
-
-
 const App = () => {
   return (
     <BrowserRouter>
@@ -60,6 +58,10 @@ const App = () => {
         <Route path='/event' element={<MainEventCenter/>} />
         <Route path='/service' element={<Services/>} />
         <Route path='/about' element={<About/>} />
+        <Route path="/contact" element={<ContactPage/>} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/programs-page" element={<ProgramPage/>} />
+        <Route path="/prayer" element={<PrayerTime/>} />
         <Route path='/home' element={
           <>
             <HeroSection />
@@ -76,9 +78,6 @@ const App = () => {
         } />
 
         
-
-        <Route path="/contact" element={<ContactPage/>} />
-        <Route path="/blog" element={<Blog/>} />
         <Route path="/blog-post-1" element={<BlogPost1/>} />
         <Route path="/blog-post-2" element={<BlogPost2/>} />
         <Route path="/blog-post-3" element={<BlogPost3/>} />
@@ -86,8 +85,6 @@ const App = () => {
         <Route path="/blog-post-5" element={<BlogPost5/>} />
         <Route path="/blog-post-6" element={<BlogPost6/>} />
         <Route path="/blog-page" element={<Blog/>} />
-        <Route path="/programs-page" element={<ProgramPage/>} />
-        <Route path="/prayer" element={<PrayerTime/>} />
 
       </Routes>
       </Suspense>
