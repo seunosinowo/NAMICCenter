@@ -1,37 +1,45 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React, {lazy, Suspense} from 'react';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import HeroSection from './components/HeroSection';
-import PrayerTimesCard from './components/PrayerTimesCard';
-import Overview from './components/Overview';
-import Community from './components/Community';
-import ProgramsCalendar from './components/ProgramsCalendar';
-import WhatWeOffer from './components/WhatWeOffer';
-import Donation from './components/Donation';
-import DonationDetails from './components/other_pages/DonationDetails';
-import EventsCenter from './components/EventsCenter';
-import MainEventCenter from './components/other_pages/MainEventCenter';
-import Newsletter from './components/Newsletter';
-import RamadanActivities from './components/RamadanActivities';
-import ContactPage from './components/other_pages/ContactPage';
 import Footer from './components/Footer';
-import Blog from './components/other_pages/Blog';
-import BlogPost1 from './components/Blog_Pages/BlogPost1';
-import BlogPost2 from './components/Blog_Pages/BlogPost2';
-import BlogPost3 from './components/Blog_Pages/BlogPost3';
-import BlogPost4 from './components/Blog_Pages/BlogPost4';
-import BlogPost5 from './components/Blog_Pages/BlogPost5';
-import BlogPost6 from './components/Blog_Pages/BlogPost6';
-import ProgramPage from './components/other_pages/ProgramPage';
-import PrayerTime from './components/other_pages/PrayerTime';
-import Services from './components/other_pages/Services';
-import About from './components/other_pages/About';
+import Loader from './components/Loader/Loader';
+
+const HeroSection = lazy(() => import('./components/HeroSection'));
+const PrayerTimesCard = lazy(() => import('./components/PrayerTimesCard'));
+const Overview = lazy(() => import('./components/Overview'));
+const Community = lazy(() => import('./components/Community'));
+const ProgramsCalendar = lazy(() => import('./components/ProgramsCalendar'));
+const WhatWeOffer = lazy(() => import('./components/WhatWeOffer'));
+const Donation = lazy(() => import('./components/Donation'));
+const EventsCenter = lazy(() => import('./components/EventsCenter'));
+const Newsletter = lazy(() => import('./components/Newsletter'));
+const RamadanActivities = lazy(() => import('./components/RamadanActivities'));
+
+const DonationDetails = lazy(() => import('./components/other_pages/DonationDetails'));
+const MainEventCenter = lazy(() => import('./components/other_pages/MainEventCenter'));
+const ContactPage = lazy(() => import('./components/other_pages/ContactPage'));
+const Blog = lazy(() => import('./components/other_pages/Blog'));
+const ProgramPage = lazy(() => import('./components/other_pages/ProgramPage'));
+const PrayerTime = lazy(() => import('./components/other_pages/PrayerTime'));
+const Services = lazy(() => import('./components/other_pages/Services'));
+const About = lazy(() => import('./components/other_pages/About'));
+
+
+const BlogPost1 = lazy(() => import('./components/Blog_Pages/BlogPost1'));
+const BlogPost2 = lazy(() => import('./components/Blog_Pages/BlogPost2'));
+const BlogPost3 = lazy(() => import('./components/Blog_Pages/BlogPost3'));
+const BlogPost4 = lazy(() => import('./components/Blog_Pages/BlogPost4'));
+const BlogPost5 = lazy(() => import('./components/Blog_Pages/BlogPost5'));
+const BlogPost6 = lazy(() => import('./components/Blog_Pages/BlogPost6'));
+
+
 
 
 const App = () => {
   return (
     <BrowserRouter>
       <NavBar />
+      <Suspense fallback={<div><Loader/> </div>}>
       <Routes>
         <Route path="/" element={
           <>
@@ -45,8 +53,6 @@ const App = () => {
             <EventsCenter/>
             <Newsletter/>
             <RamadanActivities/>
-            
-
           </>
         } />
         <Route path="/donation-details" element={<DonationDetails/>} />
@@ -54,6 +60,22 @@ const App = () => {
         <Route path='/event' element={<MainEventCenter/>} />
         <Route path='/service' element={<Services/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/home' element={
+          <>
+            <HeroSection />
+            <PrayerTimesCard />
+            <Overview />
+            <Community />
+            <ProgramsCalendar />
+            <WhatWeOffer />
+            <Donation />
+            <EventsCenter/>
+            <Newsletter/>
+            <RamadanActivities/>
+          </>
+        } />
+
+        
 
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="/blog" element={<Blog/>} />
@@ -68,6 +90,7 @@ const App = () => {
         <Route path="/prayer" element={<PrayerTime/>} />
 
       </Routes>
+      </Suspense>
       <Footer/>
     </BrowserRouter>
   );

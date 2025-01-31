@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col justify-center items-center h-full w-full text-center gap-9 p-4">
         
         <motion.h1
-          className="text-white text-4xl md:text-6xl font-bold mt-4 mx-auto"
+          className="text-gray-700 text-5xl md:text-6xl font-bold mt-4 mx-auto"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -24,7 +24,7 @@ const HeroSection = () => {
         </motion.h1>
 
         <motion.h2 
-          className='text-white text-2xl mb-10 mx-auto'
+          className='text-gray-600 text-2xl mb-10 mx-auto'
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -38,7 +38,7 @@ const HeroSection = () => {
         </motion.h2>
 
         <button className='bg-yellow-400 h-11 w-36 rounded-lg flex justify-center items-center'>
-          <span className='text-base text-black text-center'>
+          <span className='text-base text-gray-600 text-center'>
             Read Our Blog
           </span>
         </button>

@@ -13,11 +13,11 @@ const NavBar = () => {
 
   return (
     <nav className="sticky top-1 z-50 py-5 backdrop-blur-lg border-b border-neutral-700/80"> 
-      <div className="container px-4 mx-auto text-[0.98rem]">
+      <div className="container px-4 mx-auto text-[0.99rem]">
         <div className="flex justify-between items-center">
-          <div className="flex items-center flex-shrink-0">
+          <div className="flex items-center">
               <img className="h-14 w-14 mr-2" src={logo} alt="logo" />
-              <span className="text-xl -tracking-tight">NAMICC</span>
+              <span className="text-2xl -tracking-tight">NAMICC</span>
           </div>
 
           {/* Desktop View */}
@@ -44,14 +44,15 @@ const NavBar = () => {
                 </button>
               </div> 
         </div>
+
         
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-white w-full p-6 flex flex-col justify-start items-start gap-4 lg:hidden">
+          <div className="fixed right-0 z-20 bg-slate-100 w-full p-6 flex flex-col justify-start items-start  gap-4 lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={item.item} className="py-2 w-full">
                   <a href={item.href}
-                  className="text-black text-[1rem]">
+                  className="text-[1rem] text-green-800 hover:underline">
                   {item.label}</a>
                   
                 </li>
