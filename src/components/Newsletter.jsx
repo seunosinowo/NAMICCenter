@@ -28,9 +28,9 @@ const Newsletter = () => {
 
   return (
     <div className="bg-green-900 py-12">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-green-100 mb-4">Stay Updated with Our Newsletter</h2>
-        <p className="text-xs md:text-lg text-amber-200 mb-8">Get the latest news and updates from our organization.</p>
+      <div className="max-w-5xl sm:w-11/12 md:w-11/12 mx-auto text-center">
+        <h2 className="text-4xl md:text-5xl font-bold text-green-100 mb-4">Stay Updated with Our Newsletter</h2>
+        <p className="text-[1rem] md:text-lg text-amber-200 mb-8">Get the latest news and updates from our organization.</p>
         {success ? (
           <p className="text-lg text-green-900 mb-8">Thank you for subscribing to our newsletter!</p>
         ) : (
