@@ -19,12 +19,12 @@ const PrayerTimesCard = () => {
               {/* First img */}
               <div className="relative z-10 flex flex-col justify-center items-center mt-8 mb-8 md:mb-16">
               
-                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
+                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400 mt-5'
 
                   animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
                   transition={{ duration: 3 }}
                   >
-                     <NotepadText className='w-20 h-20 text-white p-3'/>
+                     <NotepadText className='w-20 h-20 text-white p-3 sm:w-16 md:-16 md:w-16 md:h-16'/>
                   </motion.div>
 
                   <h1 className='text-2xl font-bold text-white mb-3 text-center'>Arabic Classes</h1>
