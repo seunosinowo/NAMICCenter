@@ -29,11 +29,11 @@ const Overview = () => {
             className='rounded-3xl h-[8rem] md:h-[12rem] w-[14rem] lg:w-[19rem]'
             />
             <div className='scroll-px-60'>
-              <p className='w-[16rem] mb-9'>
+              {/* <p className='w-[16rem] mb-9'>
                 From Arabic classes to monthly lectures, and from social 
                 events to spiritual gatherings, there's something for 
                 everyone at NAMIC.
-              </p>
+              </p> */}
               <div className='bg-yellow-400 w-16 h-16 rounded-full flex space-x-4'>
                 <img src={BIcon} alt="icon" 
                 className='w-16 h-16 text-center p-4'

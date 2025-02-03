@@ -17,7 +17,7 @@ const Donation = () => {
         className="max-w-5xl mx-auto text-center"
       >
         <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4">Support Our Cause</h2>
-        <p className="text-1xl lg:text-lg text-white mb-8">Help us spread the knowledge of Arabic and Quran</p>
+        <p className="text-xl lg:text-lg text-white mb-8">Help us spread the knowledge of Arabic and Quran</p>
         <button className="bg-green-950 hover:bg-green-600 text-white font-bold py-2 px-4 rounded text-3xl">
           <Link to="/donation-details" className="text-white">Donate Now</Link>
         </button>
