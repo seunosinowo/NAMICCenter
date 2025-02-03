@@ -17,9 +17,9 @@ const PrayerTimesCard = () => {
 
               
               {/* First img */}
-              <div className="relative z-10 flex flex-col justify-center items-center mt-8 mb-8 md:mb-7">
+              <div className="relative z-10 flex flex-col justify-center items-center mb-8 md:mb-7">
               
-                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400 mt-5'
+                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
 
                   animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
                   transition={{ duration: 3 }}
@@ -32,7 +32,7 @@ const PrayerTimesCard = () => {
               </div>
 
               {/* Second img */}
-              <div className="relative z-10 flex flex-col justify-center items-center mt-8 mb-8 md:mb-7">
+              <div className="relative z-10 flex flex-col justify-center items-center mb-8 md:mb-7">
                   <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center bg-yellow-400 mb-5'
 
                   animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
@@ -46,8 +46,8 @@ const PrayerTimesCard = () => {
               </div>
 
               {/* Third img */}
-              <div className="relative z-10 flex flex-col justify-center items-center mt-8 mb-8 md:mb-7">
-                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400 mt-5'
+              <div className="relative z-10 flex flex-col justify-center items-center mb-8 md:mb-7">
+                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
                   animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
                   transition={{ duration: 3 }}
                   >
