@@ -26,10 +26,10 @@ const Overview = () => {
         {/* 2 Section inside */}
         <div className='grid grid-cols-2 mb-9'>
             <img src={praying} alt="Praying"
-            className='rounded-3xl h-[8rem] md:h-[12rem] w-[14rem] lg:w-[19rem] sm:hidden md:hidden lg:block'
+            className='rounded-3xl h-[8rem] md:h-[12rem] w-[14rem] lg:w-[19rem] hidden md:hidden lg:block xl:block'
             />
             <div>
-              <p className='w-[16rem] mb-9 sm:hidden md:hidden lg:block'>
+              <p className='w-[16rem] mb-9 hidden md:hidden lg:block xl:block'>
                 From Arabic classes to monthly lectures, and from social 
                 events to spiritual gatherings, there's something for 
                 everyone at NAMIC.
