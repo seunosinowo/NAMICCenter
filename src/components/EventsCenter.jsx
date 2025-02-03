@@ -11,9 +11,9 @@ const EventsCenter = () => {
       transition={{ duration: 0.5, delay: 0.2 }}
       className="bg-white py-12"
     >
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-5xl font-bold text-green-900 mb-4">Host Your Event with Us</h2>
-        <p className="text-lg text-gray-600 mb-8">
+      <div className="max-w-5xl sm:w-5/6 md:w-5/6 mx-auto text-center">
+        <h2 className="text-3xl md:text-5xl font-bold text-green-900 mb-4">Host Your Event with Us</h2>
+        <p className="text-sm md:text-lg text-gray-600 mb-8">
           Our state-of-the-art events center is perfect for weddings, conferences, and more.
           </p>
       </div>
