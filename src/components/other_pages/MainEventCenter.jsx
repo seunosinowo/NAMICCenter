@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import eventTradition from '../../assets/tradition.jpg';
+import eventTradition from '../../assets/reading.jpg';
 
 
 const Events = () => {

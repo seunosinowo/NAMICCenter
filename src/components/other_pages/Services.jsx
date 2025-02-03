@@ -16,7 +16,7 @@ const Services = () => {
               {showArabicClasses ? <span className="text-lg font-bold">-</span> : <span className="text-lg font-bold">+</span>}
             </h3>
             {showArabicClasses && (
-              <p className="text-gray-600 mb-2">Learn the language of the Quran with our expert teachers.</p>
+              <p className="text-gray-600 mb-2">Learn the language of the Quran with our expert teachers. Our Arabic classes are designed to help you understand the Quran and improve your Arabic language skills.</p>
             )}
           </div>
         </div>
@@ -27,7 +27,7 @@ const Services = () => {
               {showQuranRecitation ? <span className="text-lg font-bold">-</span> : <span className="text-lg font-bold">+</span>}
             </h3>
             {showQuranRecitation && (
-              <p className="text-gray-600 mb-2">Improve your Quran recitation skills with our experienced teachers.</p>
+              <p className="text-gray-600 mb-2">Improve your Quran recitation skills with our experienced teachers. Our Quran recitation classes are designed to help you improve your Tajweed and recitation skills.</p>
             )}
           </div>
         </div>
@@ -38,7 +38,7 @@ const Services = () => {
               {showIslamicEducation ? <span className="text-lg font-bold">-</span> : <span className="text-lg font-bold">+</span>}
             </h3>
             {showIslamicEducation && (
-              <p className="text-gray-600 mb-2">Learn about Islamic values and principles with our expert teachers.</p>
+              <p className="text-gray-600 mb-2">Learn about Islamic values and principles with our expert teachers. Our Islamic education classes are designed to help you understand the basics of Islam and improve your knowledge.</p>
             )}
           </div>
         </div>

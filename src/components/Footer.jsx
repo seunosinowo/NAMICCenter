@@ -1,78 +1,62 @@
 import React from 'react';
-import FooterGreen from '../assets/green.jpg';
-import logo from '../assets/logo.png';
+import { MapPin, Phone, Mail } from 'lucide-react';
+
 
 const Footer = () => {
   return (
-    <footer
-      className="bg-cover bg-center bg-no-repeat py-12"
-      style={{ backgroundImage: `url(${FooterGreen})` }}
-    >
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="text-white">
-            <img src={logo} alt="Logo" className="w-32 mb-4" />
-            <p className="text-lg">
-              The Nigerian-American Muslim Integrated Community Center (NAMICC) is a non-profit organization dedicated to serving the Muslim community in the United States.
+    <footer className="bg-gradient-to-b from-green-800 to-green-600 text-white py-8">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap justify-between">
+          <div className="w-full md:w-1/3 mb-4 md:mb-0 p-4 md:p-6 lg:p-8">
+            <h5 className="text-lg font-bold mb-4">About Us</h5>
+            <p className="text-sm">
+              Nigerian-American Muslim Integrated Community Center (NAMIC) is a non-profit organization dedicated to serving the Muslim community in Brooklyn, New York.
             </p>
           </div>
-          <div className="text-white">
-            <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
-            <p className="text-lg mb-2">
-              <span className="fas fa-map-marker-alt mr-2"></span>
-              123 Main St, Anytown, USA 12345
-            </p>
-            <p className="text-lg mb-2">
-              <span className="fas fa-phone mr-2"></span>
-              (123) 456-7890
-            </p>
-            <p className="text-lg mb-2">
-              <span className="fas fa-envelope mr-2"></span>
-              <a href="mailto:info@namicc.org" className="text-white hover:text-gray-300">
-                info@namicc.org
-              </a>
-            </p>
-            <div className="flex justify-start mt-4">
-              <a href="#" className="text-white hover:text-gray-300 mr-4">
-                <span className="fab fa-facebook-f"></span>
-              </a>
-              <a href="#" className="text-white hover:text-gray-300 mr-4">
-                <span className="fab fa-twitter"></span>
-              </a>
-              <a href="#" className="text-white hover:text-gray-300 mr-4">
-                <span className="fab fa-instagram"></span>
-              </a>
+
+          <div className="w-full md:w-1/3 mb-4 md:mb-0 p-4 md:p-6 lg:p-8">
+            <h5 className="text-lg font-bold mb-2">Quick Links</h5>
+            
+            <div className="flex flex-wrap justify-between">
+              <div className="w-1/2 mb-4 md:mb-0">
+                <ul className="text-sm">
+                  <li className="mb-2"><a href="/home" className="hover:text-green-500">Home</a></li>
+                  <li className="mb-2"><a href="/about" className="hover:text-green-500">About Us</a></li>
+                  <li className="mb-2"><a href="/program" className="hover:text-green-500">Program</a></li>
+                  <li className="mb-2"><a href="/service" className="hover:text-green-500">Services</a></li>
+                </ul>
+              </div>
+              <div className="w-1/2 mb-4 md:mb-0">
+                <ul className="text-sm">
+                  <li className="mb-2"><a href="/prayer" className="hover:text-green-500">Prayer Time</a></li>
+                  <li className="mb-2"><a href="/event" className="hover:text-green-500">Events</a></li>
+                  <li className="mb-2"><a href="/blog" className="hover:text-green-500">Blog</a></li>
+                  <li className="mb-2"><a href="/contact" className="hover:text-green-500">Contact</a></li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="text-white">
-            <h3 className="text-2xl font-bold mb-4">Quick Links</h3>
-            <ul>
-              <li className="text-lg mb-2">
-                <a href="#" className="text-white hover:text-gray-300">
-                  About Us
-                </a>
-              </li>
-              <li className="text-lg mb-2">
-                <a href="#" className="text-white hover:text-gray-300">
-                  Our Programs
-                </a>
-              </li>
-              <li className="text-lg mb-2">
-                <a href="#" className="text-white hover:text-gray-300">
-                  Donate
-                </a>
-              </li>
-              <li className="text-lg mb-2">
-                <a href="#" className="text-white hover:text-gray-300">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
+          <div className="w-full md:w-1/3 mb-4 md:mb-0 p-4 md:p-6 lg:p-8">
+            <h5 className="text-lg font-bold mb-2">Contact Us</h5>
+            <div className="flex items-center mb-4 text-white">
+              <MapPin className="w-4 h-4 mr-2" />
+              <p className="text-sm">801 Dean Street, Brooklyn, New York</p>
+            </div>
+            <div className="flex items-center mb-4 text-white">
+              <Phone className="w-4 h-4 mr-2" />
+              <p className="text-sm"><a href="#" className="hover:text-green-500">718-623-8193</a></p>
+            </div>
+            <div className="flex items-center text-white">
+              <Mail className="w-4 h-4 mr-2" />
+              <p className="text-sm"><a href="#" className="hover:text-green-500">NAMIC801Dean@gmail.com</a></p>
+            </div>
           </div>
         </div>
-        <div className="bg-black text-white text-center p-4 mt-8 w-full flex">
-          &copy; 2025 Nigerian-American Muslim Integrated Community Center. All rights reserved.
+
+        <div className="text-center mt-8">
+          <p className="text-sm">&copy; 2025 Nigerian-American Muslim Integrated Community Center (NAMIC). All rights reserved.</p>
         </div>
+
       </div>
     </footer>
   );
