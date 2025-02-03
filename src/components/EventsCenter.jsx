@@ -17,6 +17,7 @@ const EventsCenter = () => {
           Our state-of-the-art events center is perfect for weddings, conferences, and more.
           </p>
       </div>
+      
       <div className="max-w-5xl mx-auto flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 xl:w-1/2 p-6 bg-green-100 rounded-lg shadow-lg">
           <h3 className="text-2xl font-bold text-green-900 mb-4">Events Center Details</h3>

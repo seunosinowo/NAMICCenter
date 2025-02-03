@@ -17,7 +17,7 @@ const PrayerTimesCard = () => {
 
               
               {/* First img */}
-              <div className="relative z-10 flex flex-col justify-center items-center mt-16 md:-mt-8">
+              <div className="relative z-10 flex flex-col justify-center items-center mt-8 mb-8 md:mb-16">
               
                   <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
 
@@ -32,7 +32,7 @@ const PrayerTimesCard = () => {
               </div>
 
               {/* Second img */}
-              <div className="relative z-10 flex flex-col justify-center items-center mt-16 md:-mt-8">
+              <div className="relative z-10 flex flex-col justify-center items-center mt-8 mb-8 md:mb-16">
                   <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
 
                   animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
@@ -42,11 +42,11 @@ const PrayerTimesCard = () => {
                   </motion.div>
 
                   <h1 className='text-2xl font-bold text-white mb-3 text-center'>Lectures & Eventss</h1>
-                  <h1 className='text-xl text-white text-center'>Stay updated on our latest programs"</h1>
+                  <h1 className='text-xl text-white text-center'>Stay updated on our latest programs</h1>
               </div>
 
               {/* Third img */}
-              <div className="relative z-10 flex flex-col justify-center items-center mt-16 md:-mt-8 mb-8 md:mb-0">
+              <div className="relative z-10 flex flex-col justify-center items-center mt-8 mb-8 md:mb-16">
                   <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
                   animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
                   transition={{ duration: 3 }}

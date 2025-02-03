@@ -17,7 +17,7 @@ const Overview = () => {
         </h1>
 
         <p className='mt-1 mb-7 w-full justify-start'>
-            At NAMIC, we're dedicated to creating a vibrant community where Muslims 
+            At Nigerian-American Muslim Integrated Community Center, we're dedicated to creating a vibrant community where Muslims 
             can come together, learn, and grow. Our community development programs 
             are designed to promote Islamic knowledge, cultural awareness, 
             and social cohesion.
