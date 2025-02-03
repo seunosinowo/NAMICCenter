@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const PrayerTimesCard = () => {
   return (
-      <div className="relative h-screen bg-cover mx-auto mt-20 md:-mt-32">
+      <div className="relative h-screen bg-cover mx-auto -mt-20 md:-mt-32">
             <div
               className="absolute inset-9 bg-cover rounded-lg h-[46.7rem] md:h-[15rem] md:mt-2"
               style={{ backgroundImage: `url(${back})` }}

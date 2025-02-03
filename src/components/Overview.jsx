@@ -7,7 +7,7 @@ import BIcon from '../assets/community_icon.png';
 
 const Overview = () => {
   return (
-    <div className='mt-52 md:-mt-64 text-black mx-8 grid lg:grid-cols-2'>
+    <div className='mt-28 md:-mt-28 text-black mx-8 grid lg:grid-cols-2'>
 
       <div className='col-span-1'>
         <p className='uppercase text-2xl'>Building a Stronger Community</p>
