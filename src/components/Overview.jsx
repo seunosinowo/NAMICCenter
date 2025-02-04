@@ -2,7 +2,7 @@ import React from 'react'
 import muslim from '../assets/muslim-prayers.jpg';
 import praying from '../assets/praying.jpg';
 import BIcon from '../assets/community_icon.png';
-
+import { motion } from 'framer-motion';
 
 
 const Overview = () => {
@@ -10,11 +10,32 @@ const Overview = () => {
     <div className='mt-28 md:-mt-28 text-black mx-8 grid lg:grid-cols-2'>
 
       <div className='col-span-1'>
-        <p className='uppercase text-2xl'>Building a Stronger Community</p>
-        <h1 className='bg-gradient-to-r text-green-800 text-5xl py-6 from-green-700 to-black text-transparent bg-clip-text'>
+        <motion.p className='uppercase text-2xl'
+          initial = "hidden"
+          whileInView = "visible"
+          viewport={{once: true, amount: 0.5}}
+          transition={{duration: 0.5}}
+          variants={{
+              hidden: {opacity: 0, x: -50},
+              visible: {opacity: 1, x:0}
+          }}
+        >
+          Building a Stronger Community
+        </motion.p>
+
+        <motion.h1 className='bg-gradient-to-r text-green-800 text-5xl py-6 from-green-700 to-black text-transparent bg-clip-text'
+          initial = "hidden"
+          whileInView = "visible"
+          viewport={{once: true, amount: 0.5}}
+          transition={{duration: 0.5}}
+          variants={{
+              hidden: {opacity: 0, x: -50},
+              visible: {opacity: 1, x:0}
+          }}
+        >
           Empowering Muslims, Enriching {" "}
           <span>Lives</span>
-        </h1>
+        </motion.h1>
 
         <p className='mt-1 mb-7 w-full justify-start'>
             At Nigerian-American Muslim Integrated Community Center, we're dedicated to creating a vibrant community where Muslims 
