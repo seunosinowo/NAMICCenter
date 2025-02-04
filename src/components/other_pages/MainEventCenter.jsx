@@ -11,8 +11,9 @@ const Events = () => {
     >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
+        viewport={{ once: true }}
         className="max-w-5xl mx-auto text-center"
       >
         <h2 className="text-6xl font-bold text-white mb-4">Events</h2>

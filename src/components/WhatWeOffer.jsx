@@ -20,8 +20,9 @@ const WhatWeOffer = () => {
         {/* 1st Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
           className="w-full md:w-1/3 xl:w-1/3 p-6  lg:p-10 md:p-0 mx-0"
         >
           <div className="bg-green-700 rounded-lg shadow-lg p-4 md:p-6 lg:p-8">
@@ -41,8 +42,9 @@ const WhatWeOffer = () => {
         {/* 2nd Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
           className="w-full md:w-1/3 xl:w-1/3 p-6  lg:p-10 md:p-0 mx-0"
         >
           <div className="bg-green-700 rounded-lg shadow-lg p-4 md:p-6 lg:p-8">
@@ -59,11 +61,12 @@ const WhatWeOffer = () => {
           </div>
         </motion.div>
 
-        {/* 2nd Section */}
+        {/* 3rd Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
           className="w-full md:w-1/3 xl:w-1/3 p-6  lg:p-10 md:p-0 mx-0"
         >
           <div className="bg-green-700 rounded-lg shadow-lg p-4 md:p-6 lg:p-8">

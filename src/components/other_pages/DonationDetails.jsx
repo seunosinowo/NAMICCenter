@@ -12,9 +12,9 @@ const DonationDetails = () => {
       <div className="max-w-5xl mx-auto flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 xl:w-1/2 p-6 bg-green-200 rounded-lg shadow-lg">
           <h3 className="text-2xl font-bold text-green-900 mb-4">Bank Transfer</h3>
-          <p className="text-lg text-green-900 mb-4">Account Name: [Insert account name]</p>
-          <p className="text-lg text-green-900 mb-4">Account Number: [Insert account number]</p>
-          <p className="text-lg text-green-900 mb-4">Bank Name: [Insert bank name]</p>
+          <p className="text-lg text-green-900 mb-4">Account Name: </p>
+          <p className="text-lg text-green-900 mb-4">Account Number: </p>
+          <p className="text-lg text-green-900 mb-4">Bank Name: </p>
         </div>
 
         <div className="w-full md:w-1/2 xl:w-1/2 p-6 bg-green-200 rounded-lg shadow-lg flex items-center justify-center">

@@ -19,10 +19,14 @@ const PrayerTimesCard = () => {
               {/* First img */}
               <div className="relative z-10 flex flex-col justify-center items-center mb-8 md:mb-7">
               
-                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
-
-                  animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
-                  transition={{ duration: 3 }}
+                  <motion.div 
+                    className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    animate={{ y: [0, -20, 0], 
+                              rotate: [0, 15, -15, 0] }}
+                    transition={{ duration: 3 }}
+                    viewport={{ once: true }}
                   >
                      <NotepadText className='w-20 h-20 text-white p-3 sm:w-16 md:-16 md:w-16 md:h-16'/>
                   </motion.div>
@@ -33,10 +37,14 @@ const PrayerTimesCard = () => {
 
               {/* Second img */}
               <div className="relative z-10 flex flex-col justify-center items-center mb-8 md:mb-7">
-                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center bg-yellow-400 mb-5'
-
-                  animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
-                  transition={{ duration: 3 }}
+                  <motion.div 
+                    className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center bg-yellow-400 mb-5'
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    animate={{ y: [0, -20, 0], 
+                              rotate: [0, 15, -15, 0] }}
+                    transition={{ duration: 3 }}
+                    viewport={{ once: true }}
                   >
                      <Megaphone className='w-20 h-20 text-white p-3'/>
                   </motion.div>
@@ -47,9 +55,14 @@ const PrayerTimesCard = () => {
 
               {/* Third img */}
               <div className="relative z-10 flex flex-col justify-center items-center mb-8 md:mb-7">
-                  <motion.div className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
-                  animate={{ y: [0, -20, 0], rotate: [0, 15, -15, 0] }}
-                  transition={{ duration: 3 }}
+                  <motion.div 
+                    className='text-center text-white border-2 w-24 h-24 rounded-full border-white flex justify-center items-center mb-4 bg-yellow-400'
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    animate={{ y: [0, -20, 0], 
+                              rotate: [0, 15, -15, 0] }}
+                    transition={{ duration: 3 }}
+                    viewport={{ once: true }}
                   >
 
                      <GraduationCap className='w-20 h-20 text-white p-3'/>

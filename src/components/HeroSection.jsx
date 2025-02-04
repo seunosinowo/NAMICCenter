@@ -16,8 +16,9 @@ const HeroSection = () => {
         <motion.h1
           className="text-gray-700 text-5xl md:text-6xl font-bold mt-4 mx-auto"
           initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
+          viewport={{ once: true }}
         >
           Nigerian-American Muslim {" "}
           <span>Integrated Community Center</span> 
