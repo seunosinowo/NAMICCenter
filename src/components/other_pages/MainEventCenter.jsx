@@ -1,13 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import eventTradition from '../../assets/reading.jpg';
+import eventTradition from '../../assets/mos.jpg';
 
 
 const Events = () => {
   return (
     <div
-      className="bg-gradient-to-b from-green-400 to-green-700 py-12"
-      style={{ backgroundImage: `url(${eventTradition})` }}
+      className="bg-gradient-to-b from-gray-500 to-gray-900 py-12"
     >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -39,22 +38,22 @@ const Events = () => {
           <div className="w-full md:w-1/3 xl:w-1/3 p-6">
             <div className="bg-white rounded-lg shadow-lg p-6">
               <h4 className="text-xl font-bold text-gray-900 mb-2">Wedding Expo</h4>
-              <p className="text-lg text-gray-600 mb-2">Date: March 12, 2023</p>
-              <p className="text-lg text-gray-600 mb-2">Time: 10:00 AM - 5:00 PM</p>
+              <p className="text-lg text-gray-600 mb-2">Date: March 12</p>
+              <p className="text-lg text-gray-600 mb-2">Time: </p>
             </div>
           </div>
           <div className="w-full md:w-1/3 xl:w-1/3 p-6">
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Conference</h4>
-              <p className="text-lg text-gray-600 mb-2">Date: April 15, 2023</p>
-              <p className="text-lg text-gray-600 mb-2">Time: 9:00 AM - 5:00 PM</p>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">Fasting</h4>
+              <p className="text-lg text-gray-600 mb-2">Date: April 15</p>
+              <p className="text-lg text-gray-600 mb-2">Time: </p>
             </div>
           </div>
           <div className="w-full md:w-1/3 xl:w-1/3 p-6">
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Charity Gala</h4>
-              <p className="text-lg text-gray-600 mb-2">Date: May 20, 2023</p>
-              <p className="text-lg text-gray-600 mb-2">Time: 6:00 PM - 11:00 PM</p>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">Charity </h4>
+              <p className="text-lg text-gray-600 mb-2">Date: May 20</p>
+              <p className="text-lg text-gray-600 mb-2">Time: </p>
             </div>
           </div>
         </div>

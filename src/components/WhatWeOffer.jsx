@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import shiny from '../assets/shiny.jpg';
+import { Link } from 'react-router-dom';
+
 
 const WhatWeOffer = () => {
   return (
@@ -33,9 +35,6 @@ const WhatWeOffer = () => {
             <p className="text-xl text-white mb-4 md:text-xl lg:text-xl">
               Learn the language of the Quran with our expert teachers. Our Arabic classes are designed to help you understand the Quran and improve your Arabic language skills.
             </p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
-              Read More
-            </button>
           </div>
         </motion.div>
 
@@ -55,9 +54,6 @@ const WhatWeOffer = () => {
             <p className="text-xl text-white mb-4 md:text-xl lg:text-xl">
             Improve your Quran recitation skills with our experienced teachers. Our Quran recitation classes are designed to help you improve your Tajweed and recitation skills.
             </p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
-              Read More
-            </button>
           </div>
         </motion.div>
 
@@ -77,14 +73,18 @@ const WhatWeOffer = () => {
             <p className="text-xl text-white mb-4 md:text-xl lg:text-xl">
             Learn about Islamic values and principles with our expert teachers. Our Islamic education classes are designed to help you understand the basics of Islam and improve your knowledge.
             </p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
-              Read More
-            </button>
           </div>
+
+          
         </motion.div>
+        </div>
 
-        
-
+        <div className='justify-center items-center flex w-full'>
+          <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
+              <span className='text-green-900 hover:text-white'>
+                  <Link to="/service">Check out more of our Services</Link>
+                </span>
+          </button>
         </div>
     </div>
   );

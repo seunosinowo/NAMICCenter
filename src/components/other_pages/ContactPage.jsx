@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <div className="bg-green-100 py-12">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-5xl font-bold text-green-900 mb-8">Get in Touch</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-green-900 mb-8">Get in Touch</h2>
         <div className="flex flex-wrap justify-center mb-8">
           <div className="bg-white rounded-lg shadow-lg p-8 w-full md:w-1/2 xl:w-1/3 mb-4 mx-4">
             <div className="flex items-center mb-4">
@@ -29,7 +29,7 @@ const ContactPage = () => {
             </div>
             <div className="h-48 rounded-lg shadow-lg">
                 
-              {/* Add your location iframe here */}
+              {/* location iframe*/}
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.748788585115!2d-73.9659647255438!3d40.67950373960681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ba3b8f31b55%3A0x1cd420ef2c631abb!2s801%20Dean%20St%2C%20Brooklyn%2C%20NY%2011238%2C%20USA!5e0!3m2!1sen!2sng!4v1738082590700!5m2!1sen!2sng"
                 width="100%"

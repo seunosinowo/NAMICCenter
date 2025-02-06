@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import eventTradition from '../assets/tradition.jpg';
+import eventTradition from '../assets/mos.jpg';
 
 const EventsCenter = () => {
   return (

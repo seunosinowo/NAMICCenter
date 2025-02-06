@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import mosque1 from '../assets/travel.jpg';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -21,8 +22,7 @@ const HeroSection = () => {
           viewport={{ once: true }}
         >
           <span className = "text-green-950">Nigerian-American Muslim {" "}</span>
-          <span className = "text-slate-100">Integrated Community {" "}</span> 
-          <span className = "text-green-950">Center</span> 
+          <span className = "text-green-950">Integrated Community Center</span> 
         </motion.h1>
 
         <motion.h2 
@@ -36,12 +36,12 @@ const HeroSection = () => {
             visible: { opacity: 1, x: 0 }
           }}
         >
-          <span className ="text-slate-100">Nurturing Faith, Enriching Lives, Building Community</span>
+          <span className ="text-slate-100 text-xl md:text-2xl">Nurturing Faith, Enriching Lives, Building Community</span>
         </motion.h2>
 
         <button className='bg-yellow-400 h-11 w-36 rounded-lg flex justify-center items-center'>
-          <span className='text-base text-gray-600 text-center'>
-            Read Our Blog
+          <span className='text-base text-green-800 text-center'>
+            <Link to="/blog">Read Our Blog</Link>
           </span>
         </button>
 
