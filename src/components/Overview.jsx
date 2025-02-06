@@ -65,7 +65,7 @@ const Overview = () => {
                 everyone at NAMIC.
               </p>
               
-              <div className='bg-yellow-400 w-16 h-16 rounded-full flex space-x-4 md:space-x-4'>
+              <div className='bg-yellow-400 w-16 h-16 rounded-full flex space-x-4 md:space-x-4 lg:mx-4'>
                 <img src={BIcon} alt="icon" 
                 className='w-16 h-16 text-center p-4'
                 />
