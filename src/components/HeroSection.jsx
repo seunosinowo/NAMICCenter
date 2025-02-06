@@ -14,14 +14,15 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col justify-center items-center h-full w-full text-center gap-9 p-4">
         
         <motion.h1
-          className="text-slate-100 text-5xl md:text-6xl font-bold mt-4 mx-auto"
+          className="text-slate-100 text-4xl md:text-6xl font-bold mt-4 mx-auto"
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Nigerian-American Muslim {" "}
-          <span>Integrated Community Center</span> 
+          <span className = "text-green-950">Nigerian-American Muslim {" "}</span>
+          <span className = "text-slate-100">Integrated Community {" "}</span> 
+          <span className = "text-green-950">Center</span> 
         </motion.h1>
 
         <motion.h2 
@@ -35,7 +36,7 @@ const HeroSection = () => {
             visible: { opacity: 1, x: 0 }
           }}
         >
-          Nurturing Faith, Enriching Lives, Building Community
+          <span className ="text-slate-100">Nurturing Faith, Enriching Lives, Building Community</span>
         </motion.h2>
 
         <button className='bg-yellow-400 h-11 w-36 rounded-lg flex justify-center items-center'>
