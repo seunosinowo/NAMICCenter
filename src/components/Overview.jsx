@@ -59,7 +59,7 @@ const Overview = () => {
             className='rounded-3xl h-[8rem] md:h-[12rem] w-[14rem] lg:w-[19rem] hidden md:hidden lg:block xl:block'
             />
             <div>
-              <p className='w-[16rem] mb-9 hidden md:hidden lg:block xl:block'>
+              <p className='w-[16rem] mb-9 hidden md:hidden lg:block xl:block lg:mx-4'> 
                 From Arabic classes to monthly lectures, and from social 
                 events to spiritual gatherings, there's something for 
                 everyone at NAMIC.
