@@ -17,7 +17,7 @@ const NavBar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
               <img className="h-14 w-14 mr-2" src={logo} alt="logo" />
-              <span className="text-2xl -tracking-tight">NAMICC</span>
+              <span className="text-2xl -tracking-tight">NAMIC</span>
           </div>
 
           {/* Desktop View */}
