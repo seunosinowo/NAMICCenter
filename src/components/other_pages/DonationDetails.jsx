@@ -6,7 +6,7 @@ const DonationDetails = () => {
 
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-5xl font-bold text-green-900 mb-4">Donation Details</h2>
-        <p className="text-lg text-green-900 mb-8">Thank you for considering a donation to our organization!</p>
+        <p className="text-base md:text-lg w-5/6 text-green-900 mb-8">Thank you for considering a donation to our organization!</p>
       </div>
 
       <div className="max-w-5xl mx-auto flex flex-wrap justify-center">

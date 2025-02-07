@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center mt-8">
-          <p className="text-sm">&copy; 2025 Nigerian-American Muslim Integrated Community Center (NAMIC). All rights reserved.</p>
+          <p className="text-sm">&copy; {new Date().getFullYear()} Nigerian-American Muslim Integrated Community Center (NAMIC). All rights reserved.</p>
         </div>
 
       </div>
