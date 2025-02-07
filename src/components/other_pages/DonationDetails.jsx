@@ -5,8 +5,8 @@ const DonationDetails = () => {
     <div className="bg-green-100 py-12">
 
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-5xl font-bold text-green-900 mb-4">Donation Details</h2>
-        <p className="text-base md:text-lg w-5/6 text-green-900 mb-8 text-center">Thank you for considering a donation to our organization!</p>
+        <h2 className="text-5xl font-bold text-green-900 mb-4 text-center">Donation Details</h2>
+        <p className="text-base md:text-lg sm:w-5/6 text-green-900 mb-8 text-center">Thank you for considering a donation to our organization!</p>
       </div>
 
       <div className="max-w-5xl mx-auto flex flex-wrap justify-center">
