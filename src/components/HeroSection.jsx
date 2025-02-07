@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import mosque1 from '../assets/travel.jpg';
+import mosque1 from '../assets/homeyork.jpg';
 import { Link } from 'react-router-dom';
 
 const HeroSection = () => {

@@ -59,6 +59,7 @@ const Services = () => {
           <li>Daily prayers</li>
           <li>Jumuah prayers</li>
           <li>Eid prayers</li>
+          <li>Sunday asalatu</li>
         </ul>
       </div>
     </div>

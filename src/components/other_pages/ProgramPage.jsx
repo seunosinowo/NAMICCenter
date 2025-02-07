@@ -65,7 +65,7 @@ const ProgramsCalendar = () => {
           className="bg-green-800 hover:bg-green-950 text-white font-bold py-2 px-4 rounded"
           onClick={handleDownloadCSV}
         >
-          Download File
+          Download Calendar
         </button>
       </div>
       <table className="w-full table-auto">
