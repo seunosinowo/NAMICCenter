@@ -19,33 +19,33 @@ const Events = () => {
   const [bookings, setBookings] = useState([
     {
       id: 1,
-      name: 'John Doe',
-      eventType: 'Wedding',
-      date: '2024-03-12',
-      startTime: '14:00',
-      endTime: '22:00',
-      numberOfGuests: 200,
-      hallPreference: 'main-hall'
+      name: '',
+      eventType: '',
+      date: '',
+      startTime: '',
+      endTime: '',
+      numberOfGuests: '',
+      hallPreference: ''
     },
     {
       id: 2,
-      name: 'Jane Smith',
-      eventType: 'Conference',
-      date: '2024-04-15',
-      startTime: '09:00',
-      endTime: '17:00',
-      numberOfGuests: 150,
-      hallPreference: 'conference-hall'
+      name: '',
+      eventType: '',
+      date: '',
+      startTime: '',
+      endTime: '',
+      numberOfGuests: '',
+      hallPreference: ''
     },
     {
       id: 3,
-      name: 'Mike Johnson',
-      eventType: 'Birthday Party',
-      date: '2024-05-20',
-      startTime: '18:00',
-      endTime: '23:00',
-      numberOfGuests: 100,
-      hallPreference: 'main-hall'
+      name: '',
+      eventType: '',
+      date: '',
+      startTime: '',
+      endTime: '',
+      numberOfGuests: '',
+      hallPreference: ''
     }
   ]);
 
