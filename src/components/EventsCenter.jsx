@@ -21,12 +21,30 @@ const EventsCenter = () => {
       <div className="max-w-5xl mx-auto flex flex-wrap justify-center">
         <div className="w-full md:w-1/2 xl:w-1/2 p-6 bg-green-100 rounded-lg shadow-lg">
           <h3 className="text-2xl font-bold text-green-900 mb-4">Events Center Details</h3>
-          <p className="text-lg text-gray-600 mb-4">Capacity: 500 guests</p>
+          <p className="text-lg text-gray-600 mb-4">Our versatile event spaces can accommodate various types of gatherings and celebrations.</p>
           <p className="text-lg text-gray-600 mb-4">
-            Amenities: Sound system, projector, catering services
+            Equipped with modern amenities to ensure your event runs smoothly and professionally.
           </p>
-          <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded">
-            <Link to="/event"  className="text-white">Learn More</Link>
+          <div className="space-y-4">
+            <a
+              href="/pdfs/HallDonationAgreement.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded text-center"
+            >
+              View Hall Donation Agreement
+            </a>
+            <a
+              href="/pdfs/Facility.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded text-center"
+            >
+              View Facility Information
+            </a>
+          </div>
+          <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded mt-4">
+            <Link to="/event" className="text-white">Learn More</Link>
           </button>
         </div>
 
