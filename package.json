@@ -11,6 +11,7 @@
     "prebuild": "rm -rf node_modules && npm install"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "axios": "^1.7.9",
     "framer-motion": "^12.0.5",
     "lucide-react": "^0.454.0",

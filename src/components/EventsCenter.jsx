@@ -25,14 +25,15 @@ const EventsCenter = () => {
           <p className="text-lg text-gray-600 mb-4">
             Equipped with modern amenities to ensure your event runs smoothly and professionally.
           </p>
+          <h4 className="text-xl font-bold text-gray-800 mb-4">Quick Links</h4>
           <div className="space-y-4">
             <a
-              href="/pdfs/HallDonationAgreement.pdf"
+              href="https://forms.gle/CeiGD5LrAo8kp8Vk9"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded text-center"
             >
-              View Hall Donation Agreement
+              Fill Hall Donation Agreement
             </a>
             <a
               href="/pdfs/Facility.pdf"
