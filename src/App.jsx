@@ -8,12 +8,10 @@ const HeroSection = lazy(() => import('./components/HeroSection'));
 const PrayerTimesCard = lazy(() => import('./components/PrayerTimesCard'));
 const Overview = lazy(() => import('./components/Overview'));
 const Community = lazy(() => import('./components/Community'));
-const ProgramsCalendar = lazy(() => import('./components/ProgramsCalendar'));
 const WhatWeOffer = lazy(() => import('./components/WhatWeOffer'));
 const Donation = lazy(() => import('./components/Donation'));
 const EventsCenter = lazy(() => import('./components/EventsCenter'));
 const Newsletter = lazy(() => import('./components/Newsletter'));
-const RamadanActivities = lazy(() => import('./components/RamadanActivities'));
 
 const DonationDetails = lazy(() => import('./components/other_pages/DonationDetails'));
 const MainEventCenter = lazy(() => import('./components/other_pages/MainEventCenter'));
@@ -28,7 +26,6 @@ const About = lazy(() => import('./components/other_pages/About'));
 const BlogPost1 = lazy(() => import('./components/Blog_Pages/BlogPost1'));
 const BlogPost2 = lazy(() => import('./components/Blog_Pages/BlogPost2'));
 const BlogPost3 = lazy(() => import('./components/Blog_Pages/BlogPost3'));
-
 
 
 const App = () => {
