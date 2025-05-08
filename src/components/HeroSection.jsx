@@ -39,9 +39,9 @@ const HeroSection = () => {
           <span className ="text-slate-100 text-xl md:text-2xl">Nurturing Faith, Enriching Lives, Building Community</span>
         </motion.h2>
 
-        <button className='bg-yellow-400 h-11 w-36 rounded-lg flex justify-center items-center'>
+        <button className='bg-yellow-400 h-14 w-40 rounded-lg flex justify-center items-center p-2'>
           <span className='text-base text-green-800 text-center'>
-            <Link to="/blog">Read Our Blog</Link>
+            <Link to="/contact">Contact us Today</Link>
           </span>
         </button>
 

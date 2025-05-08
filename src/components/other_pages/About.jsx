@@ -58,26 +58,8 @@ const About = () => {
           </ul>
         </div>
 
-        <div className="w-full md:w-1/2 xl:w-1/2 p-4">
-          <h3 className="text-lg font-bold mb-2 text-green-800">Social Media</h3>
-          <ul className="list-none pl-0 mb-2">
-          <li className="flex items-center mb-2">
-            <span className="text-lg font-bold mr-2">Facebook:</span>
-            <span className="text-gray-600">facebook</span>
-            </li>
-
-            <li className="flex items-center mb-2">
-            <span className="text-lg font-bold mr-2">Twitter:</span>
-            <span className="text-gray-600">twitter.com</span>
-            </li>
-
-            <li className="flex items-center mb-2">
-            <span className="text-lg font-bold mr-2">Instagram:</span>
-            <span className="text-gray-600">instagram.com</span>
-            </li>
-
-            </ul>
-            </div>
+        
+            
             </div>
 
             <div className="flex flex-wrap justify-center mb-4">

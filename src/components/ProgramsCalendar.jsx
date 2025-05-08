@@ -6,7 +6,7 @@ const ProgramsCalendar = () => {
   const [programs, setPrograms] = useState([
     {
       program: 'Five Times, Daily Prayer / Jumat Service',
-      details: 'Every Friday'
+      details: 'Everyday including Friday'
     },
     {
       program: 'Asalat',

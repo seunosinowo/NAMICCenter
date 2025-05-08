@@ -38,8 +38,9 @@ const Blog = () => {
             alt="Blog Post Thumbnail"
             className="w-full h-64 object-cover rounded-lg mb-4"
           />
-          <h3 className="text-xl font-bold text-gray-900 mb-2">The Benefits of Fasting in Ramadan</h3>
-          <p className="text-gray-600 mb-4">Fasting during Ramadan is one of the most rewarding experiences for Muslims, offering numerous spiritual, physical, and mental benefits...</p>
+          <h3 className="text-xl font-bold text-gray-900 mb-2">The Significance of Ileya (Eid al-Adha)</h3>
+          <p className="text-gray-600 mb-4">Ileya, known as Eid al-Adha, is one of the most sacred festivals In...
+          </p>
           <Link to="/blog-post-2">
             <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                 Read More
@@ -66,7 +67,7 @@ const Blog = () => {
 
 
         {/* Blog Post 4 */}
-        <div className="bg-white rounded-lg shadow-md p-4">
+        {/* <div className="bg-white rounded-lg shadow-md p-4">
           <img
             src={mosque_2}
             alt="Blog Post Thumbnail"
@@ -79,11 +80,11 @@ const Blog = () => {
                 Read More
             </button>
           </Link>
-        </div>
+        </div> */}
 
 
         {/* Blog Post 5 */}
-        <div className="bg-white rounded-lg shadow-md p-4">
+        {/* <div className="bg-white rounded-lg shadow-md p-4">
           <img
             src={muslimImage}
             alt="Blog Post Thumbnail"
@@ -96,11 +97,11 @@ const Blog = () => {
                 Read More
             </button>
           </Link>
-        </div>
+        </div> */}
 
 
         {/* Blog Post 6 */}
-        <div className="bg-white rounded-lg shadow-md p-4">
+        {/* <div className="bg-white rounded-lg shadow-md p-4">
             <img
               src={muslimMan}
               alt="Blog Post Thumbnail"
@@ -113,7 +114,8 @@ const Blog = () => {
                 Read More
             </button>
           </Link>
-          </div>
+          </div> */}
+
         </div>
 
       </div>

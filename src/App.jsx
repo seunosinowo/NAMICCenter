@@ -28,9 +28,7 @@ const About = lazy(() => import('./components/other_pages/About'));
 const BlogPost1 = lazy(() => import('./components/Blog_Pages/BlogPost1'));
 const BlogPost2 = lazy(() => import('./components/Blog_Pages/BlogPost2'));
 const BlogPost3 = lazy(() => import('./components/Blog_Pages/BlogPost3'));
-const BlogPost4 = lazy(() => import('./components/Blog_Pages/BlogPost4'));
-const BlogPost5 = lazy(() => import('./components/Blog_Pages/BlogPost5'));
-const BlogPost6 = lazy(() => import('./components/Blog_Pages/BlogPost6'));
+
 
 
 const App = () => {
@@ -45,12 +43,10 @@ const App = () => {
             <PrayerTimesCard />
             <Overview />
             <Community />
-            <ProgramsCalendar />
             <WhatWeOffer />
             <Donation />
             <EventsCenter/>
             <Newsletter/>
-            <RamadanActivities/>
           </>
         } />
         <Route path="/donation-details" element={<DonationDetails/>} />
@@ -68,12 +64,10 @@ const App = () => {
             <PrayerTimesCard />
             <Overview />
             <Community />
-            <ProgramsCalendar />
             <WhatWeOffer />
             <Donation />
             <EventsCenter/>
             <Newsletter/>
-            <RamadanActivities/>
           </>
         } />
 
@@ -81,9 +75,6 @@ const App = () => {
         <Route path="/blog-post-1" element={<BlogPost1/>} />
         <Route path="/blog-post-2" element={<BlogPost2/>} />
         <Route path="/blog-post-3" element={<BlogPost3/>} />
-        <Route path="/blog-post-4" element={<BlogPost4/>} />5f
-        <Route path="/blog-post-5" element={<BlogPost5/>} />
-        <Route path="/blog-post-6" element={<BlogPost6/>} />
         <Route path="/blog-page" element={<Blog/>} />
 
       </Routes>
